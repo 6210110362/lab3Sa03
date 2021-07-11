@@ -107,7 +107,7 @@ code ด้านบน เป็นโค้ดในส่วนของ **Ap
 
 * **import** โดยในส่วนนี้จะเป็นการนำเข้า ไฟล์ต่างๆ โดยมีการ import
 ```
-import React from 'react'; <!--import react เป็นการ import Library ของ JavaScript -->
+import React from 'react'; /* import react เป็นการ import Library ของ JavaScript */
 import logo from './logo.svg'; /* import logo ของ yarn*/
 import './App.css';/* import css ของ App */
 import CharacterCard from './CharacterCard';/* import ไฟล์ CharacterCard */
@@ -172,16 +172,15 @@ p2{
 ```
 code ด้านบน เป็นโค้ดในส่วนของ **App.css**  ซึ่งในส่วนของหน้านี้เป็นส่วนของการปรับแต่งหน้า HTML ทั้ง สี ตัวอักษร และอื่นๆ
 
-* display: inline-block; ทำให้ตัวอักษรเรียงใน line เดียวกัน 
-* text-align: center; ทำให้ตัวอักษรอยู่ตรงกลางของ block
-* width: 3em;  กำหนกความกว้างของ Block
-* height: 1.5em; กำหนดความสูงของ Block
-* font-size: 0.80em; กำหนดขนาดของตัวอีกษร
-* box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2); ทำให้ Block มีเงา
-* background-color: rgb(255, 255, 255); กำหนดพื้นหลังของ Block
-* margin: 0.5em; กำหนดความกว้างระหว่าง Block
-* user-select: none; 
-* font-family: 'Chonburi'; เลือกรูปแบบของตัวอักษร
+* <display: inline-block;> ทำให้ตัวอักษรเรียงใน line เดียวกัน 
+* <text-align: center;> ทำให้ตัวอักษรอยู่ตรงกลางของ block
+* <width: 3em;>  กำหนกความกว้างของ Block
+* <height: 1.5em;> กำหนดความสูงของ Block
+* <font-size: 0.80em;> กำหนดขนาดของตัวอีกษร
+* <box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);> ทำให้ Block มีเงา
+* <background-color: rgb(255, 255, 255);> กำหนดพื้นหลังของ Block
+* <margin: 0.5em;> กำหนดความกว้างระหว่าง Block
+* <font-family: 'Chonburi';> เลือกรูปแบบของตัวอักษร
 
 ## CharecterCard.js
 
@@ -332,8 +331,7 @@ let guess = state.guess + c
 
 ## Name-ID
 ชื่อ นางสาวสะอาดะห์ ดายันตา 
+
 รหัสนักศึกษา 6210110362
+
 section 01 
-
-
-
