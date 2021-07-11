@@ -105,13 +105,12 @@ export default App;
 code ด้านบน เป็นโค้ดในส่วนของ App.js โดยในส่วนของ App.js เป็นการแสดงหน้า HTML ซึ่งจะแสดง ข้อความและรูปแบบต่างๆของ App
 โดยประกอบไปด้วย ส่วนของ 
 
-* import
-
+* **import** โดยในส่วนนี้จะเป็นการนำเข้าส่วนต่างๆ โดยมีการ import
 ```
-import React from 'react'; /* import react 
-import logo from './logo.svg';
-import './App.css';
-import CharacterCard from './CharacterCard';
-import WordCard from './WordCard';
+import React from 'react'; /* import react เป็นการ import Library ของ JavaScript */
+import logo from './logo.svg'; /* import logo ของ yarn*/
+import './App.css';/* import css ของ App */
+import CharacterCard from './CharacterCard';/* import ไฟล์ CharacterCard */
+import WordCard from './WordCard';/* import ไฟล์ WordCard */
 ```
 
