@@ -102,4 +102,6 @@ function App() {
 
 export default App;
 ```
+code ด้านบน เป็นโค้ดในส่วนของ App.js 
+
 
