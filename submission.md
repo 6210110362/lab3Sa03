@@ -102,6 +102,16 @@ function App() {
 
 export default App;
 ```
-code ด้านบน เป็นโค้ดในส่วนของ App.js 
+code ด้านบน เป็นโค้ดในส่วนของ App.js โดยในส่วนของ App.js เป็นการแสดงหน้า HTML ซึ่งจะแสดง ข้อความและรูปแบบต่างๆของ App
+โดยประกอบไปด้วย ส่วนของ 
 
+*import
+
+```
+import React from 'react'; /* import react 
+import logo from './logo.svg';
+import './App.css';
+import CharacterCard from './CharacterCard';
+import WordCard from './WordCard';
+```
 
