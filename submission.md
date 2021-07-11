@@ -119,7 +119,7 @@ import WordCard from './WordCard';/* import ไฟล์ WordCard */
 
 ## App.css
 
-```
+``
 .card {
   display: inline-block;
   text-align: center;
@@ -169,7 +169,7 @@ p2{
   text-align: center;
   font-family: 'Chonburi';
 }
-```
+``
 code ด้านบน เป็นโค้ดในส่วนของ **App.css**  ซึ่งในส่วนของหน้านี้เป็นส่วนของการปรับแต่งหน้า HTML ทั้ง สี ตัวอักษร และอื่นๆ
 
 * **display: inline-block;** ทำให้ตัวอักษรเรียงใน line เดียวกัน 
