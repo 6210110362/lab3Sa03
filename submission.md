@@ -2,7 +2,7 @@
 ## App.js
 
 
-``` 
+``` js
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
@@ -101,12 +101,12 @@ function App() {
 }
 
 export default App;
-```
+``` 
 code ด้านบน เป็นโค้ดในส่วนของ **App.js** โดยในส่วนของ App.js เป็นการแสดงหน้า HTML ซึ่งจะแสดง ข้อความและรูปแบบต่างๆของ App
 โดยประกอบไปด้วย ส่วนของ 
 
 * **import** โดยในส่วนนี้จะเป็นการนำเข้า ไฟล์ต่างๆ โดยมีการ import
-```
+``` js
 import React from 'react'; /* import react เป็นการ import Library ของ JavaScript */
 import logo from './logo.svg'; /* import logo ของ yarn*/
 import './App.css';/* import css ของ App */
@@ -119,7 +119,7 @@ import WordCard from './WordCard';/* import ไฟล์ WordCard */
 
 ## App.css
 
-``
+``` js
 .card {
   display: inline-block;
   text-align: center;
@@ -169,7 +169,8 @@ p2{
   text-align: center;
   font-family: 'Chonburi';
 }
-``
+``` 
+
 code ด้านบน เป็นโค้ดในส่วนของ **App.css**  ซึ่งในส่วนของหน้านี้เป็นส่วนของการปรับแต่งหน้า HTML ทั้ง สี ตัวอักษร และอื่นๆ
 
 * **display: inline-block;** ทำให้ตัวอักษรเรียงใน line เดียวกัน 
@@ -184,7 +185,7 @@ code ด้านบน เป็นโค้ดในส่วนของ **Ap
 
 ## CharecterCard.js
 
-```
+``` js
 import React, { useState, useEffect, useRef } from 'react';
 
 export default function CharacterCard(props) {
@@ -212,7 +213,7 @@ export default function CharacterCard(props) {
 }
 ```
 code ด้านบน เป็นโค้ดในส่วนของ **CharecterCard.js**  
-```
+``` js
 const activate = () => {
         if(!active){
             setActive(true)
@@ -223,7 +224,7 @@ const activate = () => {
 * code ส่วนนี้เป็นส่วนในการเรียกใช้ activationHander
 
 
-```
+``` js
     useEffect(()=> {
         if(attemptRef.current != props.attempt){
             setActive(false);
@@ -233,7 +234,7 @@ const activate = () => {
 ```
 * จากโค้ดบางส่วนข้างบนนั้นจะเป็นส่วนของการกำหนด หากเมื่อ user กดเพื่อสะกดตัวอักษรเพื่อเรียงเป็นคำแต่เรียงผิด  ข้อความจะทำการรีเฟรชคำใหม่
 
-```
+``` js
  const className = `card ${active ? 'activeCard': ''}`
     return (
         <div className={className} onClick={activate}>{props.value}</div>
@@ -244,7 +245,7 @@ const activate = () => {
 
 ## WordCard.js
 
-```
+``` js
 import React, { useState } from 'react';
 import * as _ from 'lodash';
 import CharacterCard from './CharacterCard';
@@ -297,7 +298,8 @@ export default function WordCard(props){
 code ด้านบน เป็นโค้ดในส่วนของ **WordCard.js** 
 
 
-```const prepareStateFromWord = given_word => {
+``` js
+const prepareStateFromWord = given_word => {
     let word = given_word.toUpperCase()
     let chars = _.shuffle(Array.from(word))
     return{
@@ -312,7 +314,7 @@ code ด้านบน เป็นโค้ดในส่วนของ **Wo
 
 * code ในส่วนนี้จะเป็นส่วนในการสุ่มตัวอักษรโดยหาก user เรียงคำผิด จะมีการสุ่มค่าใหม่แบบไม่เรียงคำ
 
-```
+``` js
 let guess = state.guess + c
         setState({...state, guess})
 
