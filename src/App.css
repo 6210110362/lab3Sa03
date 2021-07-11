@@ -27,6 +27,13 @@
    font-family: 'Chonburi';
  }
 
+ h2{
+  font-size: 20px;
+  text-align: center;
+  margin-bottom: 10px;
+  font-family: 'Courier New', Courier, monospace;
+}
+
  p1{
 
   font-size: 20px;

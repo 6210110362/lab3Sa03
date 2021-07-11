@@ -22,7 +22,7 @@ function App() {
   return (
     <div>
       
-      <h1>สุภาาษิต สอนท่าน</h1>
+      <h1>สุภาษิต สอนท่าน</h1>
       <center>
 
       <p2>ยกตน _ _ _ _ _ </p2>
@@ -78,6 +78,16 @@ function App() {
       <p2>มือถือสาก _ _ _ _ _ _ _</p2>
       <WordCard value={word10}/>
       <p1>ความหมาย ชอบแสดงตัวตนว่าเป็นคนมีศีล มีธรรม แต่ทำความเลวเป็นนิจ</p1>
+
+      <h2>
+        <br></br><br></br>
+        Creat by 
+        <br></br>
+        Saadah Dayanta 6210110362 sec01
+        <br></br>
+          Lab3SA03 
+        <br></br><br></br>
+      </h2>
       
       </center>
     </div>
